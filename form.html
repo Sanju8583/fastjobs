@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Survey</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1 id="title">Enter the job details </h1>
+    <form>
+      <fieldset>
+        <label>
+          Name
+          <input type="text" placeholder="Ente your name" required/>
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="Enter your Email"  required/>
+        </label>
+        <label>
+            Phone number
+            <input type="tel" placeholder="Enter Your phone number" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            Age range of the worker
+            <input type="number" placeholder="Age"  required/>
+          </label>
+          <label>
+            Job Title
+            <input type="text" placeholder="Enter The job title" required>
+          </label>
+          <label >
+            Job Description
+            <textarea row="6" cols="60" placeholder="Job's description" required></textarea>
+          </label>
+          <label>
+            Payment
+            <input type="number" placeholder="Enter the price you are willing to pay" required>
+          </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            Any suggestions?
+            <textarea row="6" cols="60" placeholder="Enter your comment here..."></textarea>
+        </label>
+        <button>
+            <a href="index.html" >Post</a>
+          </button>
+      </fieldset>
+    </form>
+  </body>
+</html>

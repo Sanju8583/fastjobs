@@ -1,0 +1,43 @@
+body{
+    background-color: #1B1B32;
+    color: white;
+}
+.signin{
+    color: white;
+    font-size: 20px;
+    text-align: end;
+    color: none;
+}
+.heading{
+    text-align: center;
+}
+form{
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+fieldset{
+    border: none;
+}
+.jobs{
+    font-size: 20px;
+    border-bottom: 2px solid;
+}
+.first{
+    text-align: center;
+    border-bottom: 2px solid ;
+}
+.myjob{
+    height: 35px;
+    width: 250px;
+    background-color: black;
+    color: white;
+}
+.myjob:hover{
+    background-color: white;
+    color: black;
+}
+.myjob:active{
+    background-color: aquamarine;
+    color: black;
+}
