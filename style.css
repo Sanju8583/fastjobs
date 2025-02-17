@@ -28,6 +28,7 @@ fieldset{
     border-bottom: 2px solid ;
 }
 .myjob{
+    margin-top: 10px;
     height: 35px;
     width: 250px;
     background-color: black;
@@ -40,4 +41,9 @@ fieldset{
 .myjob:active{
     background-color: aquamarine;
     color: black;
+}
+.city{
+    font-size: 25px;
+    height: 30px;
+    width: 250px;
 }

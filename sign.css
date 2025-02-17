@@ -3,7 +3,7 @@ body{
 }
 form{
     width: 700px;
-    margin: 250px auto;
+    margin: 150px auto;
     padding-bottom: 2em;
 }
 label{
@@ -18,7 +18,8 @@ input{
     margin-bottom: 10px;
 }
 button{
-    width: inherit;
+    margin-left: 600px;
+    width: 100px;
     min-height: 30px;
     background-color: aquamarine;
 }
