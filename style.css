@@ -10,11 +10,22 @@ body{
 }
 .heading{
     text-align: center;
+    margin-top: 0;
+}
+heading a{
+    text-decoration: none;
+    color: white;
+}
+.goto{
+    width: 100%;
+    display: inline;
+    margin-left: 100px;
+    margin-right: 200px;
 }
 form{
     width: 700px;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding-bottom: 2em;    
 }
 fieldset{
     border: none;
@@ -31,15 +42,7 @@ fieldset{
     margin-top: 10px;
     height: 35px;
     width: 250px;
-    background-color: black;
-    color: white;
-}
-.myjob:hover{
     background-color: white;
-    color: black;
-}
-.myjob:active{
-    background-color: aquamarine;
     color: black;
 }
 .city{
